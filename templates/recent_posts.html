@@ -1,0 +1,25 @@
+<html>
+<body>
+
+    <h1> RECENT POSTS </h1> 
+
+
+    <h3> Search Posts</h3>
+    <form action="/postbytitle">
+        <input type="text" values="Posts" name="title"/> 
+    </form>
+<p>
+<!-- printing out all posts -->
+    {% for item in post_titles %}
+    {{title}} </br>
+<!--     {{body}} </br>
+    {{votes}} </br> -->
+    {% endfor %}
+</p>
+
+
+
+
+
+</body>
+</html>
